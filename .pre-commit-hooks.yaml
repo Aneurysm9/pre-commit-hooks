@@ -1,0 +1,7 @@
+---
+- id: go-mod-vendor
+  name: go mod vendor
+  description: Runs `go mod vendor` to ensure that the vendored dependencies match the `go.mod` file.
+  entry: hooks/go-mod-vendor.sh
+  language: script
+  files: \.go$
