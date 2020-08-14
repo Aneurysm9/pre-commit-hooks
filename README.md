@@ -11,7 +11,7 @@ Create or append to your `.pre-commit-config.yaml` configuration:
 
 ```yaml
 - repo: https://github.com/Aneurysm9/pre-commit-hooks
-  rev: v0.0.1
+  rev: v0.0.2
   hooks:
   - id: go-mod-vendor
 ```
